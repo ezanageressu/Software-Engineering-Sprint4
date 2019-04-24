@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['totalnumberofpencil',['totalnumberofPencil',['../classPencil.html#a80b094bc36884ba078bc6e07c56871af',1,'Pencil']]]
+  ['sell',['sell',['../classPencil.html#a2731dadbd64edeee0a1cc773a79eee24',1,'Pencil']]],
+  ['server',['Server',['../classServer.html',1,'']]],
+  ['server_2eh',['server.h',['../server_8h.html',1,'']]],
+  ['setbalance',['setBalance',['../classWallet.html#a84887f86d53ddf090421365c8ac52661',1,'Wallet']]],
+  ['speedup',['speedUp',['../classDebug.html#a4c42705f755444daa2a22b000a561e01',1,'Debug']]]
 ];

@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['newrate',['newRate',['../classPencil.html#a759af90fe58f6399e831f2c53c0470bd',1,'Pencil']]],
-  ['numberofapm',['numberofApm',['../classPencil.html#a07127489c562b29b05f439ea380db9d0',1,'Pencil']]],
-  ['numberofgraphite',['numberofGraphite',['../classProduction.html#a3b0d11cefec32eeec83637e1d5252a41',1,'Production']]],
-  ['numberofpencil',['numberofPencil',['../classPencil.html#a42f809cbd4230815aed7212fe148367c',1,'Pencil']]],
-  ['numberofwood',['numberofWood',['../classProduction.html#a5d77a106ee08bfb55522cdd28e0d364e',1,'Production']]]
+  ['mainwindow',['MainWindow',['../classMainWindow.html',1,'MainWindow'],['../classMainWindow.html#a996c5a2b6f77944776856f08ec30858d',1,'MainWindow::MainWindow()']]],
+  ['mainwindow_2eh',['mainwindow.h',['../mainwindow_8h.html',1,'']]],
+  ['marketing',['marketing',['../classPencil.html#a1bc69bd5b4a595710c48d68a2d276044',1,'Pencil']]],
+  ['marketingunlocked',['marketingUnlocked',['../classPencil.html#a180f62c45b0d40ea3ef84038e40d1f55',1,'Pencil']]],
+  ['marketingupgradeprice',['marketingUpgradePrice',['../classPencil.html#a4d8be35743fd0687fcc95a4643594568',1,'Pencil']]]
 ];

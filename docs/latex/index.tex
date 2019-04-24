@@ -1,0 +1,61 @@
+This project prints \char`\"{}\+Hello World\char`\"{} in a new window using Qt. The project is originally developed for Linux OS and has been tested that it works on Mac\+OS X. \subsection*{Required Packages}
+
+
+\begin{DoxyItemize}
+\item G\+NU C++\+: \href{https://gcc.gnu.org/install/}{\tt Download Here}
+\item Qt\+: \href{https://www.qt.io/download}{\tt Download Here}
+\item C\+Make\+: \href{https://cmake.org/install}{\tt Download Here}
+\item Doxygen\+: \href{https://sourceforge.net/projects/doxygen/}{\tt Download Here}
+\item G\+Test\+: \href{https://github.com/google/googletest}{\tt Download Here}
+\item Libcurl\+: \href{https://curl.haxx.se/download.html}{\tt Download Here}
+\item J\+S\+ON for Modern C++\+: \href{https://github.com/nlohmann/json}{\tt Download Here} \subsection*{Possible Build Issues}
+\end{DoxyItemize}
+
+
+\begin{DoxyItemize}
+\item Make sure you have installed the relevant Qt libraries. Once the libraries have been install, ensure that you have added them to the include path. This can be done by editting your .bashrc file. 
+\begin{DoxyCode}
+$ sudo nano ~/.bashrc
+\end{DoxyCode}
+ Now add the following lines to the end of the file. 
+\begin{DoxyCode}
+PATH=$PATH:location\_of\_Qt\_libraries
+export PATH
+\end{DoxyCode}
+
+\item If you encounter the build error message 
+\begin{DoxyCode}
+cannot find -lGL
+\end{DoxyCode}
+ install the necessary libraries with the following command\+: 
+\begin{DoxyCode}
+$ sudo apt-get install libgl1-mesa-dev
+\end{DoxyCode}
+
+\end{DoxyItemize}
+
+\#\# Build Instructions 
+\begin{DoxyCode}
+$ mkdir build
+$ cd build
+$ cmake .. && make
+\end{DoxyCode}
+ The executable is generated as \char`\"{}hello\char`\"{} in the \char`\"{}build\char`\"{} directory. To run enter\+: 
+\begin{DoxyCode}
+$ ./execPencilMaker
+\end{DoxyCode}
+
+
+\#\# Documentation Generation Instructions 
+\begin{DoxyCode}
+$ doxygen Doxyfile 
+$ cd html
+$ firefox index.html
+\end{DoxyCode}
+ The H\+T\+ML and La\+TeX formatted documentation can be found in \char`\"{}build\char`\"{} directory. To open it in your default browser, enter\+: 
+\begin{DoxyCode}
+$ open html/index.html
+\end{DoxyCode}
+ \subsection*{Contributors}
+
+Sprint 4\+: \href{https://github.com/ezanageressu}{\tt Ezana Geressu} Sprint 4\+: \href{https://github.com/whailemari-se}{\tt Wossen Hailemariam} 

@@ -4,5 +4,5 @@
 <area shape="rect" id="node5" href="$wallet_8h.html" title="This header file contains required definitions for Wallet. It only stores Balance which is the money ..." alt="" coords="152,259,219,285"/>
 <area shape="rect" id="node6" href="$intelligence_8h.html" title="Intelligence currency implentation and functionalities. " alt="" coords="223,184,321,211"/>
 <area shape="rect" id="node7" href="$debug_8h.html" title="This header file contains functionalities to debug the game. " alt="" coords="397,109,465,136"/>
-<area shape="rect" id="node8" href="$server_8h_source.html" title="server.h" alt="" coords="489,109,559,136"/>
+<area shape="rect" id="node8" href="$server_8h.html" title="This header file contains required definitions for handling server data, and uploading scores..." alt="" coords="489,109,559,136"/>
 </map>

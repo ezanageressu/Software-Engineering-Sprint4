@@ -1,3 +1,9 @@
+/**
+* @file server.h
+* @brief This header file contains required definitions
+* for handling server data, and uploading scores
+*/
+
 #ifndef SERVER_H_INCLUDED
 #define SERVER_H_INCLUDED
 
