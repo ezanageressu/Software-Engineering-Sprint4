@@ -1,5 +1,5 @@
-# Hello World Window
-This project prints "Hello World" in a new window using Qt. The project is originally developed for Linux OS and has been tested that it works on MacOS X.
+# Pencil Producer
+This project is an implementation of the pencil producer game.
 ## Required Packages
 - GNU C++: [Download Here](https://gcc.gnu.org/install/)
 - Qt: [Download Here](https://www.qt.io/download)
