@@ -1,0 +1,19 @@
+\hypertarget{debug_8h}{}\section{/home/fatine/\+Documents/se-\/03-\/team-\/06/src/debug.h File Reference}
+\label{debug_8h}\index{/home/fatine/\+Documents/se-\/03-\/team-\/06/src/debug.\+h@{/home/fatine/\+Documents/se-\/03-\/team-\/06/src/debug.\+h}}
+
+
+This header file contains functionalities to debug the game.  
+
+
+This graph shows which files directly or indirectly include this file\+:
+% FIG 0
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classDebug}{Debug}
+\begin{DoxyCompactList}\small\item\em Class to implement \hyperlink{classDebug}{Debug} functionality. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This header file contains functionalities to debug the game. 
+

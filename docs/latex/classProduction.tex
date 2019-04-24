@@ -1,0 +1,165 @@
+\hypertarget{classProduction}{}\section{Production Class Reference}
+\label{classProduction}\index{Production@{Production}}
+
+
+Class to implement production of the pencils.  
+
+
+
+
+{\ttfamily \#include $<$production.\+h$>$}
+
+
+
+Inheritance diagram for Production\+:
+% FIG 0
+
+
+Collaboration diagram for Production\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classProduction_a12c7c685be71ed51ac10f7d0284e8d4f}{Production} ()
+\item 
+void \hyperlink{classProduction_a5eea7af1f4949832bcc0c019f420d655}{buy\+Wood} ()
+\item 
+void \hyperlink{classProduction_adf62fb3241254aa3412ed9a9d1fb27a2}{buy\+Graphite} ()
+\item 
+bool \hyperlink{classProduction_a5f5c38b7f3f7b23f9029d562c7e53025}{disable\+\_\+buy\+Wood} ()
+\item 
+bool \hyperlink{classProduction_a4c87c63f0fdc741f9185dcda6793463e}{disable\+\_\+buy\+Graphite} ()
+\item 
+void \hyperlink{classProduction_a4a9bbd94b71b1d24d836d9ad79bed97b}{calculate\+Prices} ()
+\item 
+void \hyperlink{classProduction_a42c46b93e65cb3f84db76562a27d44f6}{decrease\+Wood} ()
+\item 
+void \hyperlink{classProduction_aa5180ed4aac0e3d8ecec30596c9b1751}{decrease\+Graphite} ()
+\item 
+double \hyperlink{classProduction_a8991aa503f8d94ae01ff9b7f08043c58}{get\+Wood} ()
+\item 
+double \hyperlink{classProduction_ad8e6b675848c58fcf04e214e383a87fd}{get\+Graphite} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{classProduction_ac6bc16863f128802bebbb52263d5558c}{priceof\+Wood}
+\item 
+double \hyperlink{classProduction_afca6aca1df88921b60bb7190adab5d51}{priceof\+Graphite}
+\item 
+double \hyperlink{classProduction_a5d77a106ee08bfb55522cdd28e0d364e}{numberof\+Wood}
+\item 
+double \hyperlink{classProduction_a3b0d11cefec32eeec83637e1d5252a41}{numberof\+Graphite}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class to implement production of the pencils. 
+
+We define the constructor, variables and necessary methods. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classProduction_a12c7c685be71ed51ac10f7d0284e8d4f}\label{classProduction_a12c7c685be71ed51ac10f7d0284e8d4f}} 
+\index{Production@{Production}!Production@{Production}}
+\index{Production@{Production}!Production@{Production}}
+\subsubsection{\texorpdfstring{Production()}{Production()}}
+{\footnotesize\ttfamily Production\+::\+Production (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classProduction_adf62fb3241254aa3412ed9a9d1fb27a2}\label{classProduction_adf62fb3241254aa3412ed9a9d1fb27a2}} 
+\index{Production@{Production}!buy\+Graphite@{buy\+Graphite}}
+\index{buy\+Graphite@{buy\+Graphite}!Production@{Production}}
+\subsubsection{\texorpdfstring{buy\+Graphite()}{buyGraphite()}}
+{\footnotesize\ttfamily void Production\+::buy\+Graphite (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Buy graphite function.
+
+Function to buy Graphite if there is enough balance \mbox{\Hypertarget{classProduction_a5eea7af1f4949832bcc0c019f420d655}\label{classProduction_a5eea7af1f4949832bcc0c019f420d655}} 
+\index{Production@{Production}!buy\+Wood@{buy\+Wood}}
+\index{buy\+Wood@{buy\+Wood}!Production@{Production}}
+\subsubsection{\texorpdfstring{buy\+Wood()}{buyWood()}}
+{\footnotesize\ttfamily void Production\+::buy\+Wood (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Buy wood function.
+
+Function to buy wood if there is enough balance \mbox{\Hypertarget{classProduction_a4a9bbd94b71b1d24d836d9ad79bed97b}\label{classProduction_a4a9bbd94b71b1d24d836d9ad79bed97b}} 
+\index{Production@{Production}!calculate\+Prices@{calculate\+Prices}}
+\index{calculate\+Prices@{calculate\+Prices}!Production@{Production}}
+\subsubsection{\texorpdfstring{calculate\+Prices()}{calculatePrices()}}
+{\footnotesize\ttfamily void Production\+::calculate\+Prices (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Calculates price of wood and graphite function.
+
+Function to calculate price of Wood and Graphite. Price of Wood and Graphite is a random number between 1000 to 2000.
+
+Price of Graphite is a random number between 1500 to 2500. \mbox{\Hypertarget{classProduction_aa5180ed4aac0e3d8ecec30596c9b1751}\label{classProduction_aa5180ed4aac0e3d8ecec30596c9b1751}} 
+\index{Production@{Production}!decrease\+Graphite@{decrease\+Graphite}}
+\index{decrease\+Graphite@{decrease\+Graphite}!Production@{Production}}
+\subsubsection{\texorpdfstring{decrease\+Graphite()}{decreaseGraphite()}}
+{\footnotesize\ttfamily void Production\+::decrease\+Graphite (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Consume graphite function. \mbox{\Hypertarget{classProduction_a42c46b93e65cb3f84db76562a27d44f6}\label{classProduction_a42c46b93e65cb3f84db76562a27d44f6}} 
+\index{Production@{Production}!decrease\+Wood@{decrease\+Wood}}
+\index{decrease\+Wood@{decrease\+Wood}!Production@{Production}}
+\subsubsection{\texorpdfstring{decrease\+Wood()}{decreaseWood()}}
+{\footnotesize\ttfamily void Production\+::decrease\+Wood (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Consumes wood function. \mbox{\Hypertarget{classProduction_a4c87c63f0fdc741f9185dcda6793463e}\label{classProduction_a4c87c63f0fdc741f9185dcda6793463e}} 
+\index{Production@{Production}!disable\+\_\+buy\+Graphite@{disable\+\_\+buy\+Graphite}}
+\index{disable\+\_\+buy\+Graphite@{disable\+\_\+buy\+Graphite}!Production@{Production}}
+\subsubsection{\texorpdfstring{disable\+\_\+buy\+Graphite()}{disable\_buyGraphite()}}
+{\footnotesize\ttfamily bool Production\+::disable\+\_\+buy\+Graphite (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Disable buy graphite function. \mbox{\Hypertarget{classProduction_a5f5c38b7f3f7b23f9029d562c7e53025}\label{classProduction_a5f5c38b7f3f7b23f9029d562c7e53025}} 
+\index{Production@{Production}!disable\+\_\+buy\+Wood@{disable\+\_\+buy\+Wood}}
+\index{disable\+\_\+buy\+Wood@{disable\+\_\+buy\+Wood}!Production@{Production}}
+\subsubsection{\texorpdfstring{disable\+\_\+buy\+Wood()}{disable\_buyWood()}}
+{\footnotesize\ttfamily bool Production\+::disable\+\_\+buy\+Wood (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Disable buy wood function. \mbox{\Hypertarget{classProduction_ad8e6b675848c58fcf04e214e383a87fd}\label{classProduction_ad8e6b675848c58fcf04e214e383a87fd}} 
+\index{Production@{Production}!get\+Graphite@{get\+Graphite}}
+\index{get\+Graphite@{get\+Graphite}!Production@{Production}}
+\subsubsection{\texorpdfstring{get\+Graphite()}{getGraphite()}}
+{\footnotesize\ttfamily double Production\+::get\+Graphite (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+return number of graphite. \mbox{\Hypertarget{classProduction_a8991aa503f8d94ae01ff9b7f08043c58}\label{classProduction_a8991aa503f8d94ae01ff9b7f08043c58}} 
+\index{Production@{Production}!get\+Wood@{get\+Wood}}
+\index{get\+Wood@{get\+Wood}!Production@{Production}}
+\subsubsection{\texorpdfstring{get\+Wood()}{getWood()}}
+{\footnotesize\ttfamily double Production\+::get\+Wood (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+return number of wood. 
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classProduction_a3b0d11cefec32eeec83637e1d5252a41}\label{classProduction_a3b0d11cefec32eeec83637e1d5252a41}} 
+\index{Production@{Production}!numberof\+Graphite@{numberof\+Graphite}}
+\index{numberof\+Graphite@{numberof\+Graphite}!Production@{Production}}
+\subsubsection{\texorpdfstring{numberof\+Graphite}{numberofGraphite}}
+{\footnotesize\ttfamily double Production\+::numberof\+Graphite}
+
+Amount of graphite. \mbox{\Hypertarget{classProduction_a5d77a106ee08bfb55522cdd28e0d364e}\label{classProduction_a5d77a106ee08bfb55522cdd28e0d364e}} 
+\index{Production@{Production}!numberof\+Wood@{numberof\+Wood}}
+\index{numberof\+Wood@{numberof\+Wood}!Production@{Production}}
+\subsubsection{\texorpdfstring{numberof\+Wood}{numberofWood}}
+{\footnotesize\ttfamily double Production\+::numberof\+Wood}
+
+Amount of wood. \mbox{\Hypertarget{classProduction_afca6aca1df88921b60bb7190adab5d51}\label{classProduction_afca6aca1df88921b60bb7190adab5d51}} 
+\index{Production@{Production}!priceof\+Graphite@{priceof\+Graphite}}
+\index{priceof\+Graphite@{priceof\+Graphite}!Production@{Production}}
+\subsubsection{\texorpdfstring{priceof\+Graphite}{priceofGraphite}}
+{\footnotesize\ttfamily double Production\+::priceof\+Graphite}
+
+Price of Graphite. \mbox{\Hypertarget{classProduction_ac6bc16863f128802bebbb52263d5558c}\label{classProduction_ac6bc16863f128802bebbb52263d5558c}} 
+\index{Production@{Production}!priceof\+Wood@{priceof\+Wood}}
+\index{priceof\+Wood@{priceof\+Wood}!Production@{Production}}
+\subsubsection{\texorpdfstring{priceof\+Wood}{priceofWood}}
+{\footnotesize\ttfamily double Production\+::priceof\+Wood}
+
+Price of Wood. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/fatine/\+Documents/se-\/03-\/team-\/06/src/\hyperlink{production_8h}{production.\+h}\item 
+/home/fatine/\+Documents/se-\/03-\/team-\/06/src/production.\+cpp\end{DoxyCompactItemize}

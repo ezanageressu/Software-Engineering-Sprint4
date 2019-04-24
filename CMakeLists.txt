@@ -1,30 +1,35 @@
-cmake_minimum_required(VERSION 3.1.0)
+cmake_minimum_required(VERSION 3.10.2 FATAL_ERROR)
+project(PencilMaker)
 
-project(Pencils)
-
-#CMAKE_PREFIX_PATH="/Users/briansherif/Qt/5.13.0/clang_64/lib/cmake"
-
-# Find includes in corresponding build directories
-set(CMAKE_INCLUDE_CURRENT_DIR ON)
-# Instruct CMake to run moc automatically when needed
-set(CMAKE_AUTOMOC ON)
-# Create code from a list of Qt designer ui files
-set(CMAKE_AUTOUIC ON)
-
-# Find the QtWidgets library
+find_package(Qt5 COMPONENTS Core Widgets REQUIRED)
 find_package(Qt5Widgets CONFIG REQUIRED)
+find_package(CURL REQUIRED)
 
-# Populate a CMake variable with the sources
-set(Pencils_SRCS
-    src/produce_pencil.ui
-    src/produce_pencil.cpp
-    src/main.cpp
-)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
+set(SOURCES src/main.cpp src/mainwindow.cpp)
+set(TESTSOURCES src/tests.cpp src/mainwindow.cpp)
+set(HEADERS src/mainwindow.h)
+set(FORMS src/mainwindow.ui)
+set(CMAKE_CXX_FLAGS "${MAKE_CXX_FLAGS} -std=c++0x")
 
-# Tell CMake to create the pencil production executable
-add_executable(Pencils ${Pencils_SRCS})
-# Use the Widgets module from Qt 5
-target_link_libraries(Pencils Qt5::Widgets)
+# Locate GTest
+find_package(GTest REQUIRED)
+include_directories(${GTEST_INCLUDE_DIRS} src/)
 
+if(CMAKE_COMPILER_IS_GNUCC)
+    add_definitions(-Wall -Werror)
+endif(CMAKE_COMPILER_IS_GNUCC)
 
+link_directories(src)
 
+add_executable(execPencilMaker ${SOURCES} ${HEADERS} ${FORMS})
+add_executable(testPencilMaker ${TESTSOURCES} ${HEADERS} ${FORMS})
+add_library(servExec src/server.cpp)
+
+include_directories(${CURL_INCLUDE_DIR})
+
+target_link_libraries(servExec curl)
+target_link_libraries(execPencilMaker servExec Qt5::Widgets ${GTEST_LIBRARIES} pthread)
+target_link_libraries(testPencilMaker servExec Qt5::Widgets ${GTEST_LIBRARIES} pthread)

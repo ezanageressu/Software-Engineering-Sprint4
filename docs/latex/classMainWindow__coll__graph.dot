@@ -1,0 +1,18 @@
+digraph "MainWindow"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node7 [label="MainWindow",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="QMainWindow",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node9 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node9 [label="Debug",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDebug.html",tooltip="Class to implement Debug functionality. "];
+  Node10 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node10 [label="Pencil",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPencil.html",tooltip="Class to implement pencil game. "];
+  Node11 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node11 [label="Production",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classProduction.html",tooltip="Class to implement production of the pencils. "];
+  Node12 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node12 [label="Wallet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classWallet.html",tooltip="Class to implement the wallet of the player. "];
+  Node13 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node13 [label="Intelligence",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classIntelligence.html",tooltip="Class to implement Intelligence currency. "];
+}

@@ -1,11 +1,24 @@
-#include "produce_pencil.h"
 #include <QApplication>
+#include <iostream>
+
+#include "mainwindow.h"
+#include "pencil.h"
+#include "pencil.cpp"
+#include "production.h"
+#include "production.cpp"
+#include "wallet.h"
+#include "wallet.cpp"
+#include "intelligence.h"
+#include "server.h"
 
 int main(int argc, char *argv[])
 {
+    /**
+    * Create new instance of QApplication.
+    */
     QApplication a(argc, argv);
-    produce_pencil pencil;
-    pencil.show();
-
+    MainWindow w;
+    w.show();
+    
     return a.exec();
 }

@@ -1,0 +1,16 @@
+digraph "Debug"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="Debug",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node1 [label="Pencil",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPencil.html",tooltip="Class to implement pencil game. "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="Production",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classProduction.html",tooltip="Class to implement production of the pencils. "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="Wallet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classWallet.html",tooltip="Class to implement the wallet of the player. "];
+  Node4 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="Intelligence",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classIntelligence.html",tooltip="Class to implement Intelligence currency. "];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="MainWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMainWindow.html",tooltip="Class to implement the MainWindow. "];
+}

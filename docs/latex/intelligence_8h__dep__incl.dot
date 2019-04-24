@@ -1,0 +1,11 @@
+digraph "/home/fatine/Documents/se-03-team-06/src/intelligence.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="/home/fatine/Documents\l/se-03-team-06/src/intelligence.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="/home/fatine/Documents\l/se-03-team-06/src/pencil.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pencil_8h.html",tooltip="this header file contains the functionalities for buying and selling pencil and the Auto Pencil Machi..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="/home/fatine/Documents\l/se-03-team-06/src/mainwindow.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mainwindow_8h.html",tooltip="Main window functionality. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+}

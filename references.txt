@@ -1,42 +1,20 @@
 {
-	"Sprint_1: online-references": [{
-			"url": "https://doc.qt.io/qt-5/cmake-manual.html",
-			"contribution": "Implementation of CMake file",
-			"file": "CMakeFile.txt"
-		},
-		{
-			"title": "http://zetcode.com/gui/qt5/widgets/",
-			"contribution": "Implementation for main",
-			"file": "main.cpp"
-		}
-	],
-    "Sprint_2: online-references": [{
-            "url #1": "https://doc.qt.io/qt-5/qtimer.html",
-            "contribution": "QTime syntax for generating the timer",
-            "file": "produce_pencil.cpp"
-        }
-    ],
-    "Sprint_2: other-references": [{
-            "title": "atm_make.txt",
-            "contribution": "APM function from se-02-team-03 as a reference/guide",
-            "file": "produce_pencil.cpp"
+    "online-references": 
+    [
+        {
+            "url": "https://github.com/google/googletest/blob/master/googlemock/docs/CheatSheet.md",
+            "contribution": "Google Test Documentation",
+            "file": "tests.cpp & CMakeLists.txt"
         },
         {
-            "title": "se-sprint-2-write-up.pdf",
-            "contribution": "Reference for delivarable",
-            "file": "produce_pencil.ui"
-        }
-    ],
-    "Sprint_2: colleague": [
-        {
-            "jacobs-id": "j.dayinta",
-            "contribution": "Contributed on Wallet System, Supply-demand based sales, Automatic Pencil Machine (APM), and the interface",
-            "file": "main.cc"
+            "url": "https://www.ibm.com/developerworks/aix/library/au-googletestingframework.html",
+            "contribution": "Google Test Walktrhough",
+            "file": "tests.cpp & CMakeLists.txt"
         },
         {
-            "jacobs-id": "o.alwardi",
-            "contribution": "Contributed on Pencil Production, Production material, and testing",
-            "file": "main.cc"
+            "url": "https://doc.qt.io/qt-5/qtimer.html",
+            "contribution": "Timer function in QT",
+            "file": "mainwindow.cpp & .h"
         }
     ]
 }
