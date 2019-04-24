@@ -6,6 +6,8 @@ This project prints "Hello World" in a new window using Qt. The project is origi
 - CMake: [Download Here](https://cmake.org/install)
 - Doxygen: [Download Here](https://sourceforge.net/projects/doxygen/)
 - GTest: [Download Here](https://github.com/google/googletest)
+- Libcurl: [Download Here](https://curl.haxx.se/download.html)
+- JSON for Modern C++: [Download Here](https://github.com/nlohmann/json)
 ## Possible Build Issues
 * Make sure you have installed the relevant Qt libraries. Once the libraries have been install, ensure
 that you have added them to the include path. This can be done by editting your .bashrc file.
@@ -47,3 +49,7 @@ The HTML and LaTeX formatted documentation can be found in "build" directory. To
 ```
 $ open html/index.html
 ```
+## Contributors
+Sprint 4: [Ezana Geressu](https://github.com/ezanageressu)  
+Sprint 4: [Wossen Hailemariam](https://github.com/whailemari-se)
+
