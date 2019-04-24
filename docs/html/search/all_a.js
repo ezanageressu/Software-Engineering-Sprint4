@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['rateofapm',['rateofApm',['../classPencil.html#a5b8822d01032897b432fff6ac20d6fb5',1,'Pencil']]],
-  ['rateofpencil',['rateofPencil',['../classPencil.html#acc8e87622507eb7d7b6802c561bbf4b5',1,'Pencil']]],
-  ['round',['round',['../classPencil.html#a9bbb66405447f4cc218ecbd1a09b7c3b',1,'Pencil']]]
+  ['sell',['sell',['../classPencil.html#a2731dadbd64edeee0a1cc773a79eee24',1,'Pencil']]],
+  ['server',['Server',['../classServer.html',1,'']]],
+  ['server_2eh',['server.h',['../server_8h.html',1,'']]],
+  ['setbalance',['setBalance',['../classWallet.html#a84887f86d53ddf090421365c8ac52661',1,'Wallet']]],
+  ['speedup',['speedUp',['../classDebug.html#a4c42705f755444daa2a22b000a561e01',1,'Debug']]]
 ];
