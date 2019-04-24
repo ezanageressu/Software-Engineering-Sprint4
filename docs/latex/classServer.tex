@@ -1,0 +1,76 @@
+\hypertarget{classServer}{}\section{Server Class Reference}
+\label{classServer}\index{Server@{Server}}
+
+
+Class to upload scores to server and acquire highscores from server.  
+
+
+
+
+{\ttfamily \#include $<$server.\+h$>$}
+
+
+
+Inheritance diagram for Server\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=153pt]{classServer__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{classServer_a1675e8a33c0e4f9f2d51d3de16981e66}{upload\+Score} (int totalnumberof\+Pencil)
+\item 
+void \hyperlink{classServer_ad8a93d69ede1b02b2ef9ff6bd31a325a}{get\+Scores} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ int $>$ \hyperlink{classServer_ae3bc58033f416d6bb1ff65e37b75fdc0}{player\+Scores}
+\item 
+std\+::vector$<$ std\+::string $>$ \hyperlink{classServer_a814400b9c0b97860b692a608fffa0115}{player\+Names}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class to upload scores to server and acquire highscores from server. 
+
+We define the constructor, variables and necessary methods. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classServer_ad8a93d69ede1b02b2ef9ff6bd31a325a}\label{classServer_ad8a93d69ede1b02b2ef9ff6bd31a325a}} 
+\index{Server@{Server}!get\+Scores@{get\+Scores}}
+\index{get\+Scores@{get\+Scores}!Server@{Server}}
+\subsubsection{\texorpdfstring{get\+Scores()}{getScores()}}
+{\footnotesize\ttfamily void Server\+::get\+Scores (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Acquires score from server. \mbox{\Hypertarget{classServer_a1675e8a33c0e4f9f2d51d3de16981e66}\label{classServer_a1675e8a33c0e4f9f2d51d3de16981e66}} 
+\index{Server@{Server}!upload\+Score@{upload\+Score}}
+\index{upload\+Score@{upload\+Score}!Server@{Server}}
+\subsubsection{\texorpdfstring{upload\+Score()}{uploadScore()}}
+{\footnotesize\ttfamily bool Server\+::upload\+Score (\begin{DoxyParamCaption}\item[{int}]{totalnumberof\+Pencil }\end{DoxyParamCaption})}
+
+Uploads scores to server. 
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classServer_a814400b9c0b97860b692a608fffa0115}\label{classServer_a814400b9c0b97860b692a608fffa0115}} 
+\index{Server@{Server}!player\+Names@{player\+Names}}
+\index{player\+Names@{player\+Names}!Server@{Server}}
+\subsubsection{\texorpdfstring{player\+Names}{playerNames}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::string$>$ Server\+::player\+Names}
+
+Vector containing playernames of highest scorers. \mbox{\Hypertarget{classServer_ae3bc58033f416d6bb1ff65e37b75fdc0}\label{classServer_ae3bc58033f416d6bb1ff65e37b75fdc0}} 
+\index{Server@{Server}!player\+Scores@{player\+Scores}}
+\index{player\+Scores@{player\+Scores}!Server@{Server}}
+\subsubsection{\texorpdfstring{player\+Scores}{playerScores}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ Server\+::player\+Scores}
+
+Vector containing highest scores. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/ezio/sprint3/se-\/03-\/team-\/06/se-\/04-\/team-\/16/src/server.\+h\item 
+/home/ezio/sprint3/se-\/03-\/team-\/06/se-\/04-\/team-\/16/src/server.\+cpp\end{DoxyCompactItemize}

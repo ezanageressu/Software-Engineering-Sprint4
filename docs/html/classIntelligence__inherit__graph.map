@@ -1,0 +1,5 @@
+<map id="Intelligence" name="Intelligence">
+<area shape="rect" id="node2" href="$classPencil.html" title="Class to implement pencil game. " alt="" coords="25,80,83,107"/>
+<area shape="rect" id="node3" href="$classDebug.html" title="Class to implement Debug functionality. " alt="" coords="24,155,84,181"/>
+<area shape="rect" id="node4" href="$classMainWindow.html" title="Class to implement the MainWindow. " alt="" coords="5,229,103,256"/>
+</map>

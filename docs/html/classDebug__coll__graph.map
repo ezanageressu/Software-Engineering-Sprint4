@@ -1,0 +1,6 @@
+<map id="Debug" name="Debug">
+<area shape="rect" id="node2" href="$classPencil.html" title="Class to implement pencil game. " alt="" coords="73,155,131,181"/>
+<area shape="rect" id="node3" href="$classProduction.html" title="Class to implement production of the pencils. " alt="" coords="5,80,89,107"/>
+<area shape="rect" id="node4" href="$classWallet.html" title="Class to implement the wallet of the player. " alt="" coords="18,5,77,32"/>
+<area shape="rect" id="node5" href="$classIntelligence.html" title="Class to implement Intelligence currency. " alt="" coords="114,80,202,107"/>
+</map>
