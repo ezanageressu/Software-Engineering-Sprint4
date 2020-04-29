@@ -50,6 +50,6 @@ The HTML and LaTeX formatted documentation can be found in "build" directory. To
 $ open html/index.html
 ```
 ## Contributors
-Sprint 4: [Ezana Geressu](https://github.com/ezanageressu)  
+Sprint 4: [Ezana Geresu](https://github.com/ezanageressu)  
 Sprint 4: [Wossen Hailemariam](https://github.com/whailemari-se)
 
